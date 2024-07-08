@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #0070dc;
+    height: 84px;
+    /* padding: 10px 10px; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/* box-1 */
+.icons{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+
+}
+/* box-2 */
+.shipping-address{
+    width: fit-content;
+    display: flex;
+    background-color: #004F9A;
+    border-radius: 50px;
+    width: 330px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.address{
+    color: white;
+}
+.add-icon{
+ /* background-color: red; */
+ /* padding-bottom: 15px; */
+ padding-right: 10px;
+}
+/* box-3 */
+.search{
+    background-color: #ffffff;
+    width: 500px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.search:hover{
+      /* background-color: black; */
+      border: 2px solid black;
+      border-radius: 50px;
+}
+.se-in-text input{
+    width: 400px;
+    height: 40px;
+    border: none;
+
+}
+/* box-4 */
+.reorder{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    height: 39px;
+    width: 100px;
+    justify-content: space-around;
+    color: white;
+}
+.reorder .love-icon{
+    /* background-color: red; */
+    padding-right: 5px;
+}
+/* box-5 */
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.sign-in .user-icon{
+    padding-right: 5px;
+}
